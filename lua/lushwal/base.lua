@@ -61,7 +61,7 @@ local scheme = lush(function()
 
 		Boolean({ fg = colors.orange }),
 		Character({ fg = colors.red }),
-		Comment({ fg = colors.white, gui = "italic" }),
+		Comment({ fg = colors.color8, gui = "italic" }),
 		Conditional({ fg = colors.purple }),
 		Constant({ fg = colors.orange }),
 		Define({ fg = colors.purple }),
